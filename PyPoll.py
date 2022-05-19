@@ -18,10 +18,10 @@ file_to_save = os.path.join("analysis", "election_analysis.txt")
 # Initialize a total vote counter
 total_votes = 0
 
-# Candidate Options
+# Create list for candidate options
 candidate_options = []
 
-# Creat dictionary to link candidates with votes
+# Create dictionary to link candidates with votes
 candidate_votes = {}
 
 # Winning Candidate and Winning Count Tracker
@@ -50,7 +50,6 @@ with open(file_to_load) as election_data:
             candidate_options.append(candidate_name)
             candidate_votes[candidate_name] = 0
         
-        # add a vote to the candidate's count
         candidate_votes[candidate_name] += 1
 
 with open(file_to_save, "w") as txt_file:
