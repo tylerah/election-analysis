@@ -28,9 +28,11 @@ The results of the audit were as follows:
 5. The winner of the election: Diana DeGette with 272,892 total votes (73.8% of all votes)
 
 Below is an example of how this data would appear in the command line / terminal after running the python script:
+
 ![example_terminal_output](https://user-images.githubusercontent.com/104606662/170365693-25b31615-2ca2-447b-9f05-81f1bd4917fe.png)
 
 Below is an example of the text file that would be written by the python script:
+
 ![example_text_output](https://user-images.githubusercontent.com/104606662/170365956-3b314ace-ce6b-45d2-b2b3-81dd1d26918d.png)
 
 ## Election Audit Summary
