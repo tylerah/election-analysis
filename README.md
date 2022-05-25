@@ -2,6 +2,9 @@
 ## Overview of Election Audit
 ### Purpose
 The purpose of this project was to utilize a python script to provide an analysis of the results from a recent congressional election to the Colorado Board of Elections. Such an analysis has been performed using Excel in the past, however, the head of the Board of Elections believes that this process could be automated utilizing python. If a python script can be successfully used to provide an audit of the election data, then the board would like to modify this script in order to analyze all future elections held in the state. 
+
+The raw code for the python script can be found here: https://github.com/tylerah/election-analysis/blob/main/PyPoll_Challenge.py
+
 ## Election Audit Results
 ### The Data
 The data utilized for this audit was provided in a csv file that contained 3 pieces of data: the Ballot ID, the county to which the Ballot ID belonged, and the candidate for whom the vote was cast. 
